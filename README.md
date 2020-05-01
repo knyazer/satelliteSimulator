@@ -1,6 +1,8 @@
 # satelliteSimulator
-PyQt5 satellite simulator
+PyQt5 satellite simulator in atmosphere
 
-You need to install PyQt5 before using
+For application using you need to intall libraries by:
+> pip3 install -r requirements.txt
 
-On Linux application have better design)
+And then just start main.py file in the project root:
+> python main.py
