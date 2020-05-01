@@ -92,7 +92,7 @@ class Ui(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Satellite simulator"))
         self.massLabel.setText(_translate("MainWindow", "Mass"))
         self.velocityLabel.setText(_translate("MainWindow", "Velocity"))
         self.heightLabel.setText(_translate("MainWindow", "Height"))
