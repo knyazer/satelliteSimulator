@@ -78,7 +78,6 @@ class App(QtWidgets.QMainWindow):
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
-    
     if os.name != "nt":
         file = QFile(":/dark.qss")
         file.open(QFile.ReadOnly | QFile.Text)
