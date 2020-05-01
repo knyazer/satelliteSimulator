@@ -8,6 +8,7 @@ from src.plotter import PlotterEngine
 import stylesheet.breeze_resources
 
 import sys
+import os
 
 import time
 
@@ -77,11 +78,12 @@ class App(QtWidgets.QMainWindow):
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
-
-    file = QFile(":/dark.qss")
-    file.open(QFile.ReadOnly | QFile.Text)
-    stream = QTextStream(file)
-    app.setStyleSheet(stream.readAll())
+    
+    if os.name != "nt":
+        file = QFile(":/dark.qss")
+        file.open(QFile.ReadOnly | QFile.Text)
+        stream = QTextStream(file)
+        app.setStyleSheet(stream.readAll())
 
     application = App()
     application.show()
