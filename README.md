@@ -1,10 +1,21 @@
 # satelliteSimulator
 PyQt5 satellite simulator in atmosphere
 
-![Alt text](docs/image01.png?raw=true "Example picture of application")
+![Example application image](docs/image01.png?raw=true "Example picture of application")
 
-For application using you need to install libraries by:
-> pip3 install -r requirements.txt
+## Installation
+Install Python3.6 or newer to your system
 
-And then just start main.py file in the project root:
-> python main.py
+Install PyQt5 with that command
+
+```pip3 install -r requirements.txt```
+
+## Launch
+If you have only one python version installed
+
+```python main.py```
+
+
+Else you need to specify your version
+
+```python3 main.py```
