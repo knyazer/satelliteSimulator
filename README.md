@@ -1,12 +1,10 @@
 # satelliteSimulator
-PyQt5 satellite simulator in atmosphere
+PyQt5 satellite simulator with air resistance (but infinite atmosphere size)
 
 ![Example application image](docs/image01.png?raw=true "Example picture of application")
 
 ## Installation
-Install Python3.6 or newer to your system
-
-Install PyQt5 with that command
+Install Python3.6 or newer and PyQt5, which can be installed using pip3
 
 ```pip3 install -r requirements.txt```
 
@@ -16,6 +14,6 @@ If you have only one python version installed
 ```python main.py```
 
 
-Else you need to specify your version
+Otherwise youu need to specify your version, e.g.
 
 ```python3 main.py```
