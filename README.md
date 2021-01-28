@@ -14,6 +14,6 @@ If you have only one python version installed
 ```python main.py```
 
 
-Otherwise youu need to specify your version, e.g.
+Otherwise you need to specify your version, e.g.
 
 ```python3 main.py```
